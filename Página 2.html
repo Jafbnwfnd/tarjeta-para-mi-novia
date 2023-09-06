@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjeta para mi Novia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        .tarjeta {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff0066;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            background-color: #ff0066;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+        <h1>Para mi niña preciosa</h1>
+        <p>¡Eres mi personita favorita, nadie como atu!</p>
+        <p>Acuerdate de lo muuuchooo que te amo mi niña hermosa ❤️</p>
+        <p>Tu sonrisa ilumina mi mundo.</p>
+        <p>Tu amor es mi mayor tesoro.</p>
+        <p>Estar contigo es mi felicidad.</p>
+        <button onclick="mostrarMensaje()">Ver mensaje especial</button>
+        <p id="mensajeEspecial" style="display: none;">Eres la razón por la que sonrío todos los días, la definición de todo lo que esta bien en este mundo, eres mi hogar y sobre todo mi amor, sobre ti no hay nadie ni habrá porque eres unica, la vida contigo es mucho mejor, planeo amarte mucho y siempre, hasta hacerte cositas como estas jajsba para que las puedas ver cada vez que quieras❤️,Te amo más de lo que mis palabras pueden expresar.</p>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            var mensaje = document.getElementById("mensajeEspecial");
+            mensaje.style.display = "block";
+        }
+    </script>
+</body>
+</html>
